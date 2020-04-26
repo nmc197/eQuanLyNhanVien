@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace eQuanLyNhanSu.Data.Entities
@@ -11,6 +12,7 @@ namespace eQuanLyNhanSu.Data.Entities
       public decimal LuongCoBan { set; get; }
       public int SoNgayLam { set; get; }
       public decimal PhuCap { set; get; }
-
+      public NhanVien NhanVien { set; get; }
+       
     }
 }

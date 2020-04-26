@@ -9,6 +9,7 @@ namespace eQuanLyNhanSu.Data.Entities
         public int MaPb { set; get; }
         public string TenPhongBan { set; get; }
         public int SDT { set; get; }
-
+        public List<NhanVien> NhanViens { get; set; }
+       
     }
 }   
